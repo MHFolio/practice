@@ -3,6 +3,7 @@ name: Run Python Tests
 on:
   push:
     branches:
+      - main
       - feature/* # Triggers on any branch like feature/xyz
 
 jobs:
